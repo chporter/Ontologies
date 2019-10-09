@@ -419,6 +419,7 @@
           examples:
           - climate change mitigation
           - climate change adaptation
+          - carbon sequestration
           name: climate_change_mitigation
           polarity: 1
         - OntologyNode:
@@ -658,6 +659,11 @@
             name: fire # what is on fire?
             polarity: 1
       - economic_and_commerce:
+      # todo: add construction node
+      # todo: add marketing node
+      # todo: add tourism node
+      # todo: add research node
+      # todo: add training node
         - economic_activity:
           - OntologyNode:
             examples:
@@ -1344,6 +1350,7 @@
           - coconut
           - coffee
           - corn
+          - cotton
           - crop
           - cultivar
           - feed
@@ -1425,6 +1432,7 @@
           - meat production
           name: livestock_production
           polarity: 1
+        # todo: add aquaculture node with examples (fishing)
         - OntologyNode:
           examples:
           - infestation
@@ -1445,6 +1453,7 @@
           name: pest
           polarity: 1
       - health_and_life:
+      # todo: add food_safety node with examples
         - OntologyNode:
           examples:
           - biometrics
@@ -1479,6 +1488,7 @@
             - preventable diseases
             - infection
             - infectious
+            - influenza
             name: human_disease
             polarity: 1
           - OntologyNode:
@@ -1505,6 +1515,7 @@
             examples:
             - disease treatment
             - medication
+            - medicine
             - health treatments
             - medical therapy
             - theraputic treatment
