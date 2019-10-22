@@ -1462,7 +1462,6 @@
             - #todo: find examples
             name: food safety
             polarity: 1
-
         - OntologyNode:
           examples:
           - biometrics
