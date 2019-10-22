@@ -659,11 +659,11 @@
             name: fire # what is on fire?
             polarity: 1
       - economic_and_commerce:
-      # todo: add construction node
-      # todo: add marketing node
-      # todo: add tourism node
-      # todo: add research node
-      # todo: add training node
+          - construction
+          - tourism
+          - marketing
+          - research
+          - training
         - economic_activity:
           - OntologyNode:
             examples:
@@ -1432,7 +1432,11 @@
           - meat production
           name: livestock_production
           polarity: 1
-        # todo: add aquaculture node with examples (fishing)
+        - OntologyNode:
+            examples:
+            - fishing
+            name: aqua culture
+            polarity: 1
         - OntologyNode:
           examples:
           - infestation
@@ -1453,7 +1457,12 @@
           name: pest
           polarity: 1
       - health_and_life:
-      # todo: add food_safety node with examples
+        - OntologyNode:
+            examples:
+            - #todo: find examples
+            name: food safety
+            polarity: 1
+
         - OntologyNode:
           examples:
           - biometrics
