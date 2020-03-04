@@ -3,7 +3,7 @@
 #  - we don't attempt to differentiate "event" and "entities" but rather trying to put all causal factors into "causal_factor"
 #  - use coarse-grained concepts "causal_factor", "entity" (where the causal factor is located, who and what artifacts are involved in a causal factor), "time", and "indicator_and_reported_property" as the top level concepts.
 # - allow multiple inheritance ("economic_crisis" is a child to both "economic_and_commerce" and "crisis_and_disaster"). Concepts under "intervention" and "condition" will overlap with other categories
-- wm:
+- wm_compositional:
     - process:
       - management:
         - mitigation
@@ -94,8 +94,8 @@
               - child friendly learning spaces
             - health:
               - anti-retroviral treatment
-                - sexual violence management
-                - vector control
+              - sexual violence management
+              - vector control
             - nutrition:
               - therapeutic feeding or treating
             - provide hygiene tool
@@ -223,7 +223,9 @@
           - pesticide
           - crop
           - livestock
-          - pest
+          - animal_product
+          - plant_disease:
+            - pest
           - livestock_disease
         - health_and_life:
           - nutrition:
